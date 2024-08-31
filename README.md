@@ -56,4 +56,4 @@ Screenshot of the response from invoking the Lambda function.
 
 # Using the `terraform-aws-modules/lambda/aws` Module
 
-Used the [terraform-aws-modules/lambda/aws](https://github.com/terraform-aws-modules/terraform-aws-lambda) module to create the Lambda function. Simplifies deployment by following AWS best practices and saving time compared to creating custom modules or provisioning resources directly.
+Used the [terraform-aws-modules/lambda/aws](https://registry.terraform.io/modules/terraform-aws-modules/lambda/aws/latest) module to create the Lambda function. Simplifies deployment by following AWS best practices and saving time compared to creating custom modules or provisioning resources directly.
