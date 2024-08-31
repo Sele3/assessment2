@@ -23,14 +23,18 @@ terraform init
 
 ```bash
 terraform apply
-yes
 ```
 
-5. Destroy the infrastructure (After testing)
+5. Invoke Lambda using AWS CLI
+```bash
+aws lambda invoke --function-name lambda_function response.json
+cat response.json
+```
+
+6. Destroy the infrastructure (After Completing)
 
 ```bash 
 terraform destroy
-yes
 ```
 
 # Screenshots
